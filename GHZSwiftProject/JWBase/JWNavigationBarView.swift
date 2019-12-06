@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JWNavigationBarView: UIView{
+class JWNavigationBarView: UIView {
 
     let itemSpaceWidth = 10.0
     var backgroundImageView: UIImageView!
@@ -167,5 +167,4 @@ class JWNavigationBarView: UIView{
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
