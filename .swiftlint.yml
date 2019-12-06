@@ -1,0 +1,19 @@
+excluded: 
+  - Pods
+line_length: 500
+type_name:
+  min_length: 4 # 只是警告
+  max_length: # 警告和错误
+    warning: 40
+    error: 50
+  allowed_symbols: ["_"] # 允许下划线
+identifier_name:
+  min_length: # 只有最小长度
+    error: 4 # 只有错误
+  excluded: # 排除某些名字
+    - id
+    - URL
+    - GlobalAPIKey
+  allowed_symbols: ["_"] # 允许下划线
+disabled_rules:
+  - trailing_whitespace # 空行中包含空格
