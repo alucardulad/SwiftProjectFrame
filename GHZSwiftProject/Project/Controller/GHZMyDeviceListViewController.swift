@@ -19,24 +19,19 @@ class GHZMyDeviceListViewController: JWBaseViewController, UITableViewDelegate, 
     }
     // MARK: - 点击事件配置
     override func leftBarButtonItemClick(_ button: UIButton) {
-        
     }
     
     override func rightBarButtonItemClick(_ button: UIButton) {
-        
     }
     // MARK: - viewController的页面配置链
     override func setupEvents() {
-        
     }
     
     override func setupRacSignal() {
-        
     }
 
     override func setupUI() {
         super.setupUI()
-        
     }
     
     override func layoutUIInstance() {
@@ -73,7 +68,7 @@ class GHZMyDeviceListViewController: JWBaseViewController, UITableViewDelegate, 
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
