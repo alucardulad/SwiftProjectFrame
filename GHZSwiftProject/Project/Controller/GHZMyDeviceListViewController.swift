@@ -26,7 +26,7 @@ class GHZMyDeviceListViewController: JWBaseViewController, UITableViewDelegate, 
         
     }
     // MARK: - viewController的页面配置链
-    override func setupEvents(){
+    override func setupEvents() {
         
     }
     
